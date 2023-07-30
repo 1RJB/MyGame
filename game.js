@@ -14,7 +14,7 @@ document.querySelector('.check').addEventListener('click', function() {
     // console.log(guess, typeof guess, num);
 
     if (!guess) {
-        document.querySelector('.message').textContent = '🚫 No Number!';
+        document.querySelector('.message').textContent = '❌ No Number!';
     }
     if (guess == num) {
         document.querySelector('.message').textContent = '🥳 Correct Number!';
