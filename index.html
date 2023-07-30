@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/game.css" />
+    <link rel="icon" href="icons/guessthenum.ico">
+    <title>Guess The Number!</title>
+  </head>
+  <body>  
+    <header>
+      <h1>Guess The Number!</h1>
+      <p class="between">(Between 1 and 100)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">15</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="game.js"></script>
+    <div class="topnav">
+      <button type="button"><a href="https://1rjb.github.io/cv/">My Github</a></button>
+      <button type="button"><a href="about.html">About Me</a></button>
+      <button type="button"><a href="email.html">Contact Me</a></button>
+    </div>
+  </body>
+</html>
