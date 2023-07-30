@@ -18,11 +18,13 @@ document.querySelector('.check').addEventListener('click', function() {
     }
     if (guess == num) {
         document.querySelector('.message').textContent = '🥳 Correct Number!';
-        document.querySelector('body').style.backgroundColor = 'green';
-        document.querySelector('.guess').style.color = 'gold';
+        document.querySelector('body').style.backgroundColor = '#379237';
+        document.querySelector('.guess').style.color = '#F7C04A';
+        document.querySelector('header').style.backgroundColor = '#54B435';
+        document.querySelector('.number').style.color = 'black';
     }
 
-    if (guess < num) {
+    if (guess < num && guess != 0) {
         document.querySelector('.message').textContent = '👇 Too Low!';
     }
 
@@ -51,8 +53,10 @@ document.querySelector('.again').addEventListener('click', function() {
     document.querySelector('.message').textContent = 'Start guessing...';
     document.querySelector('.guess').value = '';
     // Update UI
-    document.querySelector('body').style.backgroundColor = '#222';
-    document.querySelector('.guess').style.color = '#eee'
+    document.querySelector('body').style.backgroundColor = '#6A2C70';
+    document.querySelector('.guess').style.color = 'inherit';
+    document.querySelector('header').style.backgroundColor = '#B83B5E';
+    document.querySelector('.number').style.color = 'goldenrod';
 
 });
 

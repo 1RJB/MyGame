@@ -13,21 +13,21 @@ html {
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #1D5B79;
+  color: aliceblue;
+  background-color: #6A2C70;
 }
 
 /* LAYOUT */
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
-  background-color: #468B97;
+  border-bottom: 7px solid aliceblue;
+  background-color: #B83B5E;
 }
 
 main {
   height: 65vh;
-  color: #eee;
+  color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -58,8 +58,8 @@ h1 {
 }
 
 .number {
-  background: #eee;
-  color: #333;
+  background: aliceblue;
+  color: goldenrod;
   font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
@@ -86,7 +86,7 @@ h1 {
 
 .guess {
   background: none;
-  border: 4px solid #eee;
+  border: 4px solid aliceblue;
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
@@ -99,7 +99,7 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #eee;
+  background-color: aliceblue;
   color: #222;
   font-size: 2rem;
   font-family: inherit;
@@ -109,6 +109,7 @@ h1 {
 
 .btn:hover {
   background-color: #ccc;
+  color: black;
 }
 
 .message {
@@ -128,3 +129,21 @@ h1 {
   text-align: right;
 }
 
+.navtext {
+  color: #1D5B79;
+  text-decoration: underline;
+}
+
+.gamenav {
+  border: none;
+  background-color: #000000;
+  color: #222;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.gamenav:hover {
+  background-color: #1f1f1f;
+}
