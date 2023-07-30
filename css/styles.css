@@ -1,6 +1,6 @@
 body{margin: 0; text-align: center; background-color: aliceblue;}
 
-#topnav{margin-bottom: 0;}
+.topnav{margin-bottom: 0;}
 
 h1{font-size: 5.625rem; margin: 10px auto 0 auto; font-family: 'Pacifico', cursive; color: aliceblue;}
 

@@ -52,7 +52,7 @@ document.querySelector('.again').addEventListener('click', function() {
     document.querySelector('.guess').value = '';
     // Update UI
     document.querySelector('body').style.backgroundColor = '#222';
-    document.querySelector('body').style.color = '#eee'
+    document.querySelector('.guess').style.color = '#eee'
 
 });
 
