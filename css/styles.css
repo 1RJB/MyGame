@@ -1,0 +1,48 @@
+body{margin: 0; text-align: center; background-color: aliceblue;}
+
+#topnav{margin-bottom: 0;}
+
+h1{font-size: 5.625rem; margin: 10px auto 0 auto; font-family: 'Pacifico', cursive; color: aliceblue;}
+
+h2{color: rgb(72, 0, 100); font-size: 2.5rem; font-weight: normal; font-family: 'Pacifico', cursive;}
+
+h3{color: rgb(72, 0, 100); font-family: 'Share Tech Mono', monospace; font-size: 1.25rem;}
+
+p{color: rgb(70, 16, 0); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.25rem;}
+
+hr{border: dotted #dbdbf7 6px; border-bottom: none; width: 7%; margin: 100px auto;}
+
+.top-container{background-color: rgb(0, 48, 138);}
+
+.middle-container{width: 40%; margin: auto;}
+
+.bottom-container{background-color: #dbdbf7; margin-top: 50px;}
+
+.skill-row{margin: 0 auto 0 auto; text-align: center;}
+
+#pro{text-decoration: underline;}
+
+.programmer{color: rgb(75, 196, 5);}
+
+.top-cloud{position: absolute; right: 20%; top: 45%;}
+
+.bottom-cloud{position: absolute; left: 10%; bottom: 40%;}
+
+.web-dev{width: 40%;}
+
+.cycle{width: 40%}
+
+.email{width: 40%}
+
+#copyright{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+button {
+    background-color: #dbdbf7;
+    border: none;
+    color: rgb(72, 0, 100);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
