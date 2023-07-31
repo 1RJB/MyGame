@@ -17,19 +17,28 @@
         <h3>Contact Me</h3>
 
         <form action="mailto:ryanb0717@gmail.com" method="post" enctype="text/plain">
-            <label for="">Your Name:</label>
-            <input type="text" name="yourName"><br>
-            <br>
-            <label for="">Your Message:</label><br>
-            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
-            <br>
+            <table class="tablealign">
+                <tr>
+                    <td>
+                        <label for="">Your Name:</label>
+                        <input type="text" name="yourName"><br>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td>
+                        <label for="">Your Message:</label><br>
+                        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+            </table>
+            
             <label for="">Do you want to sign up to the email list?</label>
             <input type="checkbox" name="mailList"><br>
-            <br>
+            
             <label for="">Do you wish to submit the above infomation?</label>
             <input type="checkbox" name="confirmation"><br>
-            <br>
-            <label for="">If you wish to submit the infomation above, press submit.</label>
+            
+            <label for="">If you wish to submit the infomation above, press submit.</label><br>
             <input type="submit">
         </form>
 

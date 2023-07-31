@@ -98,9 +98,9 @@ document.querySelector('.again').addEventListener('click', function() {
     document.querySelector('.number').textContent = '?';
 
     // Resetting the look of the page
-    document.querySelector('body').style.backgroundColor = '#6A2C70';
+    document.querySelector('body').style.backgroundColor = 'rgb(0, 48, 138)';
     document.querySelector('.guess').style.color = 'inherit';
-    document.querySelector('header').style.backgroundColor = '#B83B5E';
+    document.querySelector('header').style.backgroundColor = 'rgb(72, 0, 100)';
     document.querySelector('.number').style.color = 'goldenrod';
 
 });

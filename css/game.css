@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: aliceblue;
-  background-color: #6A2C70;
+  background-color:  rgb(0, 48, 138);
 }
 
 /* LAYOUT */
@@ -22,7 +22,7 @@ header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid aliceblue;
-  background-color: #B83B5E;
+  background-color: rgb(72, 0, 100);
 }
 
 main {
@@ -129,14 +129,18 @@ h1 {
   text-align: right;
 }
 
+.bottom-container{background-color: #dbdbf7; margin-top: 50px; text-align: center; color: rgb(72, 0, 100);}
+
+#copyright{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
 .navtext {
-  color: #cbc01b;
-  text-decoration: underline;
+  color: rgb(72, 0, 100);
+  text-decoration: none;
 }
 
 .gamenav {
   border: none;
-  background-color: #000000;
+  background-color: #dbdbf7;
   color: #222;
   font-size: 1rem;
   font-family: inherit;
@@ -145,5 +149,5 @@ h1 {
 }
 
 .gamenav:hover {
-  background-color: #1f1f1f;
+  background-color: #838383;
 }
