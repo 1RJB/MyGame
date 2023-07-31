@@ -146,6 +146,7 @@ h1 {
   font-family: inherit;
   padding: 1rem 1.5rem;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .gamenav:hover {
