@@ -29,3 +29,10 @@ document.querySelector('.chooselevel').addEventListener('click', function() {
     r('../index.html');
 });
     
+document.querySelector('.chooselevel').addEventListener('click', function() {
+    r('../index.html');
+});
+
+document.querySelector('.chooselevel').addEventListener('click', function() {
+    r('../index.html');
+});
