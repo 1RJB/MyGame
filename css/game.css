@@ -78,6 +78,20 @@ h1 {
   right: 2rem;
 }
 
+.level {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+}
+
+.chooselevel {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 6rem;
+  right: 2rem;
+}
+
 .again {
   position: absolute;
   top: 2rem;

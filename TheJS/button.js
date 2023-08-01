@@ -18,7 +18,14 @@ if (window.location.href == 'https://1rjb.github.io/MyGame/about.html') {
 
 
 if (window.location.href == 'https://1rjb.github.io/MyGame/email.html') {
-    document.querySelector('.email').addEventListener('click', function() {
+    document.querySelector('.contactme').addEventListener('click', function() {
         r('email.html');
     });
+
 };
+
+
+document.querySelector('.chooselevel').addEventListener('click', function() {
+    r('../index.html');
+});
+    
