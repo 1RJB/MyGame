@@ -1,37 +1,41 @@
 'use strict';
 
 // Variable num equals to a random number from 0 to 100
-if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level1.html') {
-    var num = Math.floor(Math.random() * 101);
-    
+function num() {
+
+    if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level1.html') {
+        var num = Math.floor(Math.random() * 101);
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level2.html') {
+        var num = Math.floor(Math.random() * 201);
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level3.html') {
+        var num = Math.floor(Math.random() * 101) - 100;
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level4.html') {
+        var num = Math.floor(Math.random() * 401);
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level5.html') {
+        var num = Math.floor(Math.random() * 201) - 200;
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level6.html') {
+        var num = Math.floor(Math.random() * 801);
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level7.html') {
+        var num = Math.floor(Math.random() * 401) - 400;
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level8.html') {
+        var num = Math.floor(Math.random() * 1001);
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level9.html') {
+        var num = Math.floor(Math.random() * 801) - 800;
+    }
+    else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level10.html') {
+        var num = Math.floor(Math.random() * 1001) - 1000;
+    }
 }
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level2.html') {
-    var num = Math.floor(Math.random() * 201);
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level3.html') {
-    var num = Math.floor(Math.random() * 101) - 100;
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level4.html') {
-    var num = Math.floor(Math.random() * 401);
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level5.html') {
-    var num = Math.floor(Math.random() * 201) - 200;
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level6.html') {
-    var num = Math.floor(Math.random() * 801);
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level7.html') {
-    var num = Math.floor(Math.random() * 401) - 400;
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level8.html') {
-    var num = Math.floor(Math.random() * 1001);
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level9.html') {
-    var num = Math.floor(Math.random() * 801) - 800;
-}
-else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level10.html') {
-    var num = Math.floor(Math.random() * 1001) - 1000;
-}
+
+num();
 var score = 13;
 
 // Variable highscore equals the value of highscore stored in local storage/cookie
@@ -120,7 +124,7 @@ document.querySelector('.check').addEventListener('click', function() {
 document.querySelector('.again').addEventListener('click', function() {
 
     // Resetting the value of some variables
-    num = Math.floor(Math.random() * 100);
+    num();
     score = 15;
     document.querySelector('.score').textContent = score;
     document.querySelector('.message').textContent = 'Start guessing...';
