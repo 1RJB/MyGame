@@ -10,17 +10,16 @@ for (var i = 1; i < 11; i++) {
     })(i);
 };
 
-if ((window.location.href == 'https://1rjb.github.io/MyGame/index.html') || (window.location.href == 'https://1rjb.github.io/MyGame/')) {
-    document.querySelector('.contactme').addEventListener('click', function() {
-        console.log('Contact me button clicked');
-        change('email.html');
-    });
+
+document.querySelector('.contactme').addEventListener('click', function() {
+    console.log('Contact me button clicked');
+    change('email.html');
+});
     
-    document.querySelector('.about').addEventListener('click', function() {
-        console.log('About me button clicked');
-        change('about.html');
-    });
-};
+document.querySelector('.about').addEventListener('click', function() {
+    console.log('About me button clicked');
+    change('about.html');
+});
 
 
 
