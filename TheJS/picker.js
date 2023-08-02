@@ -2,7 +2,7 @@ function change(a) {
     window.location.assign(a);
 };
 
-if (window.location.href == 'https://1rjb.github.io/MyGame/index.html' || window.location.href == 'https://1rjb.github.io/MyGame/') {
+if ((window.location.href == 'https://1rjb.github.io/MyGame/index.html') || (window.location.href == 'https://1rjb.github.io/MyGame/')) {
     document.querySelector('.contactme').addEventListener('click', function() {
         console.log('Contact me button clicked');
         change('email.html');
