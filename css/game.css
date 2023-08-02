@@ -23,6 +23,7 @@ header {
   height: 35vh;
   border-bottom: 7px solid aliceblue;
   background-color: rgb(72, 0, 100);
+  background-image: ;
 }
 
 main {
@@ -166,3 +167,13 @@ h1 {
 .gamenav:hover {
   background-color: #838383;
 }
+
+#copyright{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.bottom-container{
+  background-color: #dbdbf7;
+  margin-top: 50px;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
