@@ -1,5 +1,5 @@
 function change(a) {
-    window.location.href(a);
+    window.location.assign(a);
 };
 
 if (window.location.href == 'https://1rjb.github.io/MyGame/index.html') {
