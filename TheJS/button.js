@@ -28,6 +28,7 @@ if (window.location.href == 'https://1rjb.github.io/MyGame/about.html') {
 
 if (window.location.href == 'https://1rjb.github.io/MyGame/email.html') {
     document.querySelector('.about').addEventListener('click', function() {
+        console.log('About me button clicked');
         change('about.html');
     });
     document.querySelector('.mygame').addEventListener('click', function() {
