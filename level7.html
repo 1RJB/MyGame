@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/game.css" />
+    <link rel="icon" href="../icons/guessthenum.ico">
+    <title>Guess The Number</title>
+  </head>
+
+  <body>  
+    <header>
+      <h1>Guess The Number</h1>
+      
+      <p class="between">(From -400 To 400)</p>
+      <p class="level">Level 7</p>
+      <button class="gamenav chooselevel">Choose Level</button>
+      <button class="btn again">Again</button>
+      <div class="number">?</div>
+    </header>
+    
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score"><span class="emoji">🎯</span> Score: <span class="score">15</span></p>
+        <p class="label-highscore">
+        <span class="emoji">🎖️</span> Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+
+    <script src="../TheJS/game.js"></script>
+
+    <div class="bottom-container">
+      <h3 id="copyright">&COPY; 2023 Ryan<h3>
+    </div>
+    <br>
+    <div class="topnav">
+      <button type="button" class="gamenav"><a class="navtext" href="../about.html">About Me</a></button>
+      <button type="button" class="gamenav"><a class="navtext" href="../email.html">Contact Me</a></button>
+    </div>
+
+    
+  </body>
+
+</html>
