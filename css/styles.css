@@ -64,3 +64,15 @@ button:hover {
 input {
     margin-bottom: 2rem;
 }
+
+.yourMessage {
+    border-radius: .75rem;
+    text-align: center;
+    border: solid 2px black;
+}
+
+.yourName {
+    border-radius: .5rem;
+    text-align: center;
+    border-style: solid 2px black;
+}

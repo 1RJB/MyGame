@@ -3,6 +3,7 @@
 // Variable num equals to a random number from 0 to 100
 if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level1.html') {
     var num = Math.floor(Math.random() * 101);
+    
 }
 else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level2.html') {
     var num = Math.floor(Math.random() * 201);
@@ -31,7 +32,7 @@ else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level9.ht
 else if (window.location.href == 'https://1rjb.github.io/MyGame/LEVELS/level10.html') {
     var num = Math.floor(Math.random() * 1001) - 1000;
 }
-var score = 15;
+var score = 13;
 
 // Variable highscore equals the value of highscore stored in local storage/cookie
 var highscore = Number(localStorage.getItem('highscore'));
