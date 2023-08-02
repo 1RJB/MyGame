@@ -2,6 +2,14 @@ function change(a) {
     window.location.assign(a);
 };
 
+for (var i = 1; i < 11; i++) {
+    (function(i) {
+        document.querySelector('.level'+i).addEventListener('click', function() {
+            change('LEVELS/level'+i+'.html');
+        });
+    })(i);
+};
+
 if ((window.location.href == 'https://1rjb.github.io/MyGame/index.html') || (window.location.href == 'https://1rjb.github.io/MyGame/')) {
     document.querySelector('.contactme').addEventListener('click', function() {
         console.log('Contact me button clicked');
@@ -14,15 +22,7 @@ if ((window.location.href == 'https://1rjb.github.io/MyGame/index.html') || (win
     });
 };
 
-for (var i = 1; i < 11; i++) {
-    (function(i) {
-        document.querySelector('.level'+i).addEventListener('click', function() {
-            var destination = 'LEVELS/level'+i+'.html';
-            console.log(destination);
-            change(destination);
-        });
-    })(i);
-};
+
 
 
 
