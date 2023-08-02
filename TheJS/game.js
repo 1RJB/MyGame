@@ -135,5 +135,7 @@ document.querySelector('.again').addEventListener('click', function() {
 
 });
 
-
+document.querySelector('.chooselevel').addEventListener('click', function() {
+    window.location.assign('..index.html')
+});
 
