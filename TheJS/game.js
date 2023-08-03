@@ -1,5 +1,5 @@
 'use strict';
-
+var num
 // Variable num equals to a random number from 0 to 100
 function generatenum() {
 
