@@ -34,8 +34,8 @@ function generatenum() {
         num = Math.floor(Math.random() * 1001) - 1000;
     }
 }
-generatenum;
-var score = 13;
+generatenum();
+var score = 15;
 
 // Variable highscore equals the value of highscore stored in local storage/cookie
 var highscore = Number(localStorage.getItem('highscore'));
@@ -123,7 +123,7 @@ document.querySelector('.check').addEventListener('click', function() {
 document.querySelector('.again').addEventListener('click', function() {
 
     // Resetting the value of some variables
-    generatenum;
+    generatenum();
     score = 15;
     document.querySelector('.score').textContent = score;
     document.querySelector('.message').textContent = 'Start guessing...';
